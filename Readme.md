@@ -1,4 +1,6 @@
-# Go is an open-source programming language designed for simplicity, efficiency, and concurrency (handling multiple tasks at once). It’s statically typed (meaning you declare variable types upfront) and compiled (turns your code into a single executable file). Think of it as a modern twist on languages like C, but way easier to read and write.
+# Introduction to Go
+
+**Go** is an open-source programming language designed for **simplicity**, **efficiency**, and **concurrency** (handling multiple tasks at once). It’s **statically typed** (meaning you declare variable types upfront) and **compiled** (turns your code into a single executable file). Think of it as a modern twist on languages like **C**, but way easier to read and write.
 
 **What is a Package in Go?**
 
