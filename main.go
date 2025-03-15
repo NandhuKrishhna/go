@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World! My favorite student is learning Go!")
+	fmt.Println("Hello,World")
 }
 
 //*No arguments: Unlike some languages (e.g., C’s int main(int argc, char *argv[])), Go’s main() takes no arguments and returns nothing. It’s simple by desig
