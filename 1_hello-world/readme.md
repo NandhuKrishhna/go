@@ -103,11 +103,8 @@ go mod init <module-path>
 
 ## 🔍 Code Explanation: Hello World in Go
 
-This is a simple **Go program** that prints `"Learning go language"` to the console. Let's break it down:
+This is a simple **Go program** that prints `"Learning go language"` to the console. Let's break it down:`
 
-### 📄 Code
-
-```go
 package main
 
 import "fmt"
@@ -116,3 +113,53 @@ func main() {
     fmt.Println("Learning go language")
 }
 
+🧠 Explanation
+package main: Declares the main package, which is required for executable programs.
+
+import "fmt": Imports the fmt package for formatted I/O.
+
+func main(): Entry point of the program.
+
+fmt.Println(...): Prints the message to the console with a newline.
+
+▶️ Running the Code
+1. Save the Code
+Save the code in a file named main.go.
+
+2. Run It with:
+bash
+Copy
+Edit
+go run main.go
+This will compile and run the program, printing:
+
+go
+Copy
+Edit
+Learning go language
+3. Or Build It:
+bash
+Copy
+Edit
+go build main.go
+Then execute:
+
+On macOS/Linux:
+
+bash
+Copy
+Edit
+./main
+On Windows:
+
+cmd
+Copy
+Edit
+main.exe
+🧾 Notes
+go run: For quick testing.
+
+go build: For compiling a production-ready binary.
+
+📚 Conclusion
+While Go allows development without go.mod for very small scripts, any serious project should use it. It enables modern dependency management, reproducible builds, and smoother development. The included sample program is a perfect starting point for exploring Go further.
